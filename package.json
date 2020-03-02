@@ -1,0 +1,19 @@
+{
+  "name": "perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bitwise": "ts-node bitwise",
+    "locality": "ts-node data-locality",
+    "objMapping": "ts-node obj-mappings",
+    "allocation": "ts-node allocation",
+    "streams": "ts-node streams"
+  },
+  "author": "Baryo",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
